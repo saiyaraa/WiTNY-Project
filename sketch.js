@@ -4,12 +4,12 @@ function setup() {
 
 function draw() {
   // Body
- strokeWeight(5);
+ strokeWeight(6);
  fill(0, 194, 39);
  rect(350, 220, 100, 130);
  fill('black');
  rect(350, 280, 100, 40);
- 
+
  // Head
  fill(254, 224, 202);
  strokeWeight(5);
@@ -34,7 +34,7 @@ function draw() {
  ellipse(451, 168.7, 45, 45);
  fill('white');
  ellipse(451, 168.7, 25, 25);
- 
+
  //Feet
   stroke(1);
   strokeWeight(5);
