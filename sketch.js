@@ -35,7 +35,7 @@ function draw() {
  fill('white');
  ellipse(451, 168.7, 25, 25);
 
- //Feet
+ // Legs
   stroke(1);
   strokeWeight(5);
   ellipse(370, 330, 50, 80);
@@ -43,6 +43,6 @@ function draw() {
   arc(370, 340, 48, 70, PI * 2, PI, CHORD);
   fill(255);
   ellipse(370, 320, 45, 64);
-  line(350, 320, 390, 320)
-
+  line(350, 320, 390, 320);
+  
 }
